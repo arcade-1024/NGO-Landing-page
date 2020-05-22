@@ -1,0 +1,410 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Ubuntu', sans-serif; */
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* a { */
+	/* text-decoration: none; */
+	/* color: #fff; */
+/* } */
+/* a:hover { */
+	/* text-decoration: none; */
+	/* color: #fff; */
+/* } */
+.home {
+	height: 100vh;
+	width: 100%;
+	background-image: url("../images/world-bg.png");
+	background-size: cover;
+}
+/* ? home page start */
+.app-window {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	height: 70vh;
+	width: 80%;
+	background-color: rgba(255, 255, 255, 0.8);
+	box-shadow: 5px 5px 20px #000;
+	border-radius: 10px;
+}
+#header {
+	font-family: "Montserrat", sans-serif;
+}
+
+.img-icon {
+	height: 40px;
+	width: 40px;
+	margin-right: 10px;
+}
+.navbar-brand {
+	font-size: 0.9rem;
+	text-transform: uppercase;
+	margin-right: 40px;
+}
+.nav-item {
+	border-radius: 2px;
+	text-transform: capitalize;
+	margin-right: 10px;
+	transition: 0.3s ease;
+}
+.nav-item:hover {
+	background-image: linear-gradient(
+		45deg,
+		rgb(0, 255, 140),
+		rgba(137, 248, 255, 1)
+	);
+}
+#india-bg {
+	display: block;
+	height: 300px;
+	width: 300px;
+	overflow: hidden;
+	position: absolute;
+	left: 22%;
+	top: 10%;
+}
+.art-stroke {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	transform: rotate(10deg);
+}
+#one {
+	top: -27%;
+	left: -10%;
+	z-index: -1;
+}
+#two {
+	right: 5%;
+	top: 80%;
+	z-index: -1;
+}
+.text-element {
+	width: 50%;
+	position: absolute;
+	top: 50%;
+	left: 5%;
+}
+.title-text {
+	font-size: 1rem;
+	font-weight: 600;
+	font-family: "Ubuntu", sans-serif;
+}
+#GK-text {
+	color: #808080;
+	font-weight: 200;
+	font-size: 0.8rem;
+}
+.button-bar {
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+	align-items: center;
+}
+#donate {
+	background-color: #000;
+	color: #fff;
+	width: 90px;
+	padding: 5px;
+	box-shadow: 2px 2px 5px #000000;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: 0.4s ease;
+	background-image: linear-gradient(
+		45deg,
+		rgba(33, 25, 180, 1) 11.2%,
+		rgba(253, 29, 29, 1) 55.2%,
+		rgba(252, 176, 69, 1) 91.1%
+	);
+}
+
+.para {
+	color: #808080;
+	margin-left: 20px;
+}
+.para:hover {
+	text-decoration: underline;
+	color: #000;
+}
+/* ? home page ends */
+#aim-div {
+	padding: 2% 10%;
+}
+.aim {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 2rem;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	margin: 5% 0%;
+}
+.icons-folder {
+	text-align: center;
+	margin-top: 10px;
+}
+.ico {
+	color: rgba(252, 176, 69, 1);
+}
+.aim-sub-heading {
+	margin: 10px;
+	font-size: 1rem;
+}
+/* * collage section */
+.info-about {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 100px;
+}
+#collage-img {
+	position: relative;
+	left: -9%;
+	height: 200px;
+	width: 400px;
+}
+.what-we-do {
+	width: 80%;
+}
+.help-sec-heading {
+	font-family: "Montserrat", sans-serif;
+	font-size: 1rem;
+	font-weight: 700;
+}
+/* * collage section */
+
+.banner {
+	height: 40vh;
+	width: 80%;
+	margin: 70px auto;
+	background-image: url("../images/banner-img.jpg");
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.help-text {
+	color: #fff;
+	font-size: 2rem;
+}
+.btn-banner {
+	margin: 40px;
+	width: 120px;
+	padding: 5%;
+	padding: 0.4% 5%;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	box-shadow: 2px 2px 5px #000;
+
+	border-radius: 2px;
+}
+.btn-one {
+	background: coral;
+}
+.btn-two {
+	color: #fff;
+	background: rgba(137, 248, 255, 0.7);
+}
+.contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+.mob-icon,
+.mail-icon {
+	margin-right: 40px;
+}
+.icon-pack-contacts {
+	color: #00fd87;
+}
+hr {
+	border-top: 1px solid;
+}
+#footer {
+	padding: 2% 14% 0 14%;
+}
+.end-footer {
+	display: flex;
+	font-size: 1.5rem;
+	justify-content: space-between;
+}
+.btn-know {
+	background-color: #00fd87;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	color: #fff;
+	font-size: 1rem;
+	width: 120px;
+}
+
+/* !750 START*/
+
+@media (min-width: 750px) {
+	.navbar {
+		line-height: 1;
+		font-size: 0.9rem;
+	}
+	.navbar-brand {
+		font-size: 1rem;
+	}
+	ul {
+		position: absolute;
+	}
+	.app-window {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		height: 70vh;
+		width: 80vw;
+		box-shadow: 5px 5px 20px #000;
+		border-radius: 10px;
+		/* 	overflow: hidden; */
+	}
+	#india-bg {
+		position: absolute;
+		top: 10%;
+		left: 34%;
+		display: block;
+		height: 500px;
+		width: 500px;
+	}
+	.text-element {
+		position: absolute;
+		top: 45%;
+		left: 7%;
+		width: 30%;
+	}
+	.aim-sub-heading {
+		font-size: 1.5rem;
+	}
+	.aim {
+		font-size: 2.5rem;
+		font-weight: 700;
+	}
+	/* * collage */
+	#collage-img {
+		height: 300px;
+		width: 600px;
+	}
+	.info-about {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-top: 100px;
+	}
+	.what-we-do {
+		width: 100%;
+	}
+	.help-sec-heading {
+		font-size: 1.5rem;
+	}
+	.contact {
+		display: flex;
+		flex-direction: row;
+	}
+}
+
+/* !1024 START */
+
+@media (min-width: 1024px) {
+	.app-window {
+		height: 60vh;
+		width: 80%;
+	}
+	#india-bg {
+		display: block;
+		height: 550px;
+		width: 550px;
+		position: absolute;
+		left: 45%;
+		top: 6%;
+	}
+	.text-element {
+		position: absolute;
+		top: 35%;
+		left: 7%;
+		width: 40%;
+	}
+	.title-text {
+		font-size: 2rem;
+	}
+	#one {
+		top: -27%;
+		left: -10%;
+		z-index: -1;
+	}
+	#two {
+		right: 5%;
+		top: 80%;
+	}
+	#GK-text {
+		font-size: 1rem;
+	}
+}
+
+/* !1124 START */
+
+@media (min-width: 1124px) {
+	.navbar {
+		line-height: 1.5;
+		letter-spacing: 1px;
+		z-index: 100;
+	}
+	.app-window {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		height: 70vh;
+		width: 80%;
+		background-color: rgba(255, 255, 255, 0.8);
+		box-shadow: 5px 5px 20px #000;
+		border-radius: 10px;
+	}
+	#india-bg {
+		display: block;
+		height: 650px;
+		width: 650px;
+		position: absolute;
+		left: 58%;
+		top: -19%;
+	}
+	.text-element {
+		position: absolute;
+		top: 35%;
+		left: 7%;
+		width: 40%;
+	}
+	.title-text {
+		font-size: 2rem;
+	}
+	#collage-img {
+		height: 600px;
+		width: 950px;
+	}
+	.info-about {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		margin-top: 100px;
+	}
+	.help-sec-heading {
+		font-size: 2.5rem;
+	}
+}
